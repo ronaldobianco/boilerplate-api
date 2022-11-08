@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  backend:
+    build: .
+    container_name: boilerplate-api
+    ports:
+      - 8585:8585
+    volumes:
+      - ".:/boilerplate-api"
+      - "/boilerplate-api/node_modules"
+    depends_on:
+      - db
+  db:
+    container_name: boilerplate-db
+    image: mcr.microsoft.com/mssql/server:2017-CU22-ubuntu-16.04
+    ports:
+      - 7654:7654
+    environment:
+      SA_PASSWORD: "A@123456"
+      ACCEPT_EULA: "Y"
