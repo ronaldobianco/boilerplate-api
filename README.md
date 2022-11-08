@@ -28,7 +28,7 @@ Run the test cases.
 - [Typebox](https://github.com/sinclairzx81/typebox) - JSON Schema Type Builder with Static Type Resolution for TypeScript;
 - [TypeORM](https://github.com/typeorm/typeorm) - ORM para utilizar o banco de dados;
 - [MSSql](https://github.com/tediousjs/node-mssql) - Gerenciador do banco de dados;
-- [SwaggerUiExpress](https://github.com/scottie1984/swagger-ui-express) - Gerenciador de interface para o arquivo de documentação;
+- [SwaggerUiFastify](https://github.com/fastify/fastify-swagger) - Gerenciador de interface para o arquivo de documentação;
 
 ## Folder Structure
 
