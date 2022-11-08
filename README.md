@@ -8,19 +8,13 @@ Quick-Start Ronaldos`s Project Template
 - The api's are created using [Fastify](https://www.fastify.io/docs/latest/)
 - [Yarn](https://yarnpkg.com/) is the package manager chosen for this project
 
-1. Get Docker running
+0. Get Docker running
 
    1. Install docker cli from (https://www.docker.com/)
-   1. Inside project folder run `docker compose up -d --build`
-
-### `npm run dev`
-
-To start the app in dev mode.\
-Open [http://localhost:8585](http://localhost:8585) to view it in the browser.
-
-### `npm run test`
-
-Run the test cases.
+   2. Inside project folder run `docker compose up -d --build`
+   3. Unit Tests
+   4. With docker running, go to docker shell, type: `docker compose run backend sh`
+   5. Type `yarn test` to run unit tests once or `yarn watch` to watch test modifications and rerun.
 
 ## Main Dependencies
 
